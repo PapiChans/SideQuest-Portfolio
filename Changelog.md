@@ -15,3 +15,9 @@
 **v0.3.0**
 - December 2, 2024
 - Add NavBar Functionality (Not Finshed Yet)
+
+**v0.3.2**
+- December 2, 2024
+- Add NavBar Functionality (Completed)
+- Adjust CSS
+- Add An Overlay when the NavBar Opens
