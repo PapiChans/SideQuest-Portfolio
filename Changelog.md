@@ -11,3 +11,7 @@
 - November 30, 2024
 - Repository Creation
 - Add Navbar Functionality
+
+**v0.3.0**
+- December 2, 2024
+- Add NavBar Functionality (Not Finshed Yet)

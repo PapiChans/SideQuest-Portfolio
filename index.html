@@ -7,40 +7,44 @@
     </head>
     <main>
         <body>
-            <nav class="navbar">
-                <ul class="d-flex navbar-content">
+            <nav class="navbar" id="navbar">
+                <div class="navbar-menu cursor-pointer">
+                    <div id="menuIcon">
+                        <svg fill="none" id="menu" class="text-light menu" style="height: 35px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm16 5H4v2h16v-2z" fill="currentColor"/> </svg>
+                    </div>
+                </div>
+                <ul class="navbar-content">
                     <li class="text-cp-light-gray cursor-pointer active" data-tab-target="#profile-section">PROFILE</li>
                     <li class="text-cp-light-gray cursor-pointer" data-tab-target="#skills-section">SKILLS</li>
                     <li class="text-cp-light-gray cursor-pointer" data-tab-target="#tools-section">TOOLS</li>
                     <li class="text-cp-light-gray cursor-pointer" data-tab-target="#ign-section">IGN</li>
-                    <li class="text-cp-light-gray cursor-pointer" data-tab-target="#reviews-section">REVIEWS</li>
+                    <li class="text-cp-light-gray cursor-pointer" data-tab-target="#ratings-section">RATINGS</li>
                 </ul>
             </nav>
             <div class="main-body">
                 <!--Profile Section Start-->
                 <div class="card active" id="profile-section" data-tab-content>
                     <h1 class="text-light card-header">PROFILE</h1>
-
                 </div>
                 <!--Profile Section End-->
                 <!--Skills Section Start-->
                 <div class="card" id="skills-section" data-tab-content>
-                    <h1 class="text-light">Skills</h1>
+                    <h1 class="text-light card-header">SKILLS</h1>
                 </div>
                 <!--Skills Section End-->
                 <!--Tools Section Start-->
                 <div class="card" id="tools-section" data-tab-content>
-
+                    <h1 class="text-light card-header">TOOLS</h1>
                 </div>
                 <!--Tools Section End-->
                 <!--IGN Section Start-->
                 <div class="card" id="ign-section" data-tab-content>
-
+                    <h1 class="text-light card-header">IN GAME NAMES</h1>
                 </div>
                 <!--IGN Section End-->
                 <!--Reviews Section Start-->
-                <div class="card" id="reviews-section" data-tab-content>
-
+                <div class="card" id="ratings-section" data-tab-content>
+                    <h1 class="text-light card-header">GAME RATINGS</h1>
                 </div>
                 <!--Reviews Section End-->
             </div>
