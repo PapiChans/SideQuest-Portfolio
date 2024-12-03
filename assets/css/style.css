@@ -82,6 +82,20 @@ Default Color Palletes
     background-color: var(--scroll-color);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     }
+
+    .scroll::-webkit-scrollbar {
+        width: 10px;               /* width of the entire scrollbar */
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background: var(--cp-dark-gray) /* color of the tracking area */
+    }
+    
+    .scroll::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-color);    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+    }
+
 }
 
 /*List*/
@@ -144,7 +158,7 @@ li:hover {
     background-color: var(--cp-dark-gray);
     margin-bottom: 20px;
     box-shadow: 0px 5px 5px #1a1a1a;
-    z-index: 999;
+    z-index: 998;
     position: fixed;
     display: block;
     padding: 1rem;
@@ -186,7 +200,7 @@ li:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
-    z-index: 998;
+    z-index: 997;
 }
 
 /*Main Body*/
@@ -210,7 +224,11 @@ li:hover {
     padding: 1rem;
     display: none;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+.scroll {
+    overflow-y: scroll;
 }
 
 .card.active {
@@ -225,9 +243,26 @@ li:hover {
 
 /*Card Typography*/
 .card-header {
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 0px 5px 2px rgba(0,0,0.9);
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.card-paragraph {
+    font-size: 17px;
     text-shadow: 0px 3px 2px rgba(0,0,0.9);
     letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 

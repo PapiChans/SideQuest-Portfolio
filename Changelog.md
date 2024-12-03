@@ -21,3 +21,7 @@
 - Add NavBar Functionality (Completed)
 - Adjust CSS
 - Add An Overlay when the NavBar Opens
+
+**v0.3.3**
+- December 3, 2024
+- Few Adjustments and Add Style for Scrollable Overflow-Y Axis
