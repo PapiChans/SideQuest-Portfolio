@@ -25,3 +25,10 @@
 **v0.3.3**
 - December 3, 2024
 - Few Adjustments and Add Style for Scrollable Overflow-Y Axis
+
+
+**v0.4.0**
+- December 4, 2024
+- Add Bio Section on Profile
+- Add Motto Section on Profile
+- Rename the Title from "Retro Portfolio" to "SideQuest Portfolio"
