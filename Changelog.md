@@ -32,3 +32,9 @@
 - Add Bio Section on Profile
 - Add Motto Section on Profile
 - Rename the Title from "Retro Portfolio" to "SideQuest Portfolio"
+
+**v0.5.0**
+- December 5, 2024
+- Add Attributes on Profile
+- Add Assests for Profile Attributes
+- Move Bio Section as Category
