@@ -38,3 +38,9 @@
 - Add Attributes on Profile
 - Add Assests for Profile Attributes
 - Move Bio Section as Category
+
+**v0.6.0**
+- December 6, 2024
+- Add Background Image
+- HTML Contents reducs the opacity for the background
+- Add Likes and Dislike section (Incomplete yet)

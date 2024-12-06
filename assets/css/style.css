@@ -99,7 +99,7 @@ Default Color Palletes
 }
 
 /*List*/
-li {
+.navbar-li {
     letter-spacing: 1px;
     margin-left: 15px;
     margin-right: 15px;
@@ -107,7 +107,7 @@ li {
     text-shadow: 0px 3px 2px rgba(0,0,0.9);
 }
 
-li:hover {
+.navbar-li:hover {
     color: var(--cp-teal);
 }
 
@@ -164,6 +164,7 @@ li:hover {
     padding: 1rem;
     overflow-y: hidden;
     transition: 0.5s ease-in-out;
+    opacity: 0.90;
 }
 
 .navbar-menu {
@@ -211,6 +212,10 @@ li:hover {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
+    background-image: url(/assets/images/background/night.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*Card*/
@@ -237,7 +242,7 @@ li:hover {
 
 .card.active {
     display: block;
-    opacity: 1;
+    opacity: 0.90;
 }
 
 .card-content {
@@ -276,6 +281,11 @@ li:hover {
     border-width: 5px;
     border-radius: 5px;
     box-shadow: inset 0 0 2px 3px var(--cp-dark-gray);
+}
+
+.card-li {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 /*Navigation Bar Active*/
@@ -390,6 +400,26 @@ li:hover {
     justify-content: end;
 }
 
+.card-profile-likes-vs-dislikes {
+    width: 100%;
+    padding: 0.75rem;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.card-profile-like-section {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 260px;
+}
+
+.card-profile-like-ul {
+    width: 100%;
+    height: 100%;
+}
+
 /*Responsive Sections*/
 /*Tablet/Ipad Responsive*/
 @media screen and (max-width: 768px) {
@@ -430,6 +460,16 @@ li:hover {
     
     .card-profile-attributes {
         margin-right: 0px;
+    }
+
+    .card-profile-likes-vs-dislikes {
+        width: 100%;
+        display: block;
+    }
+
+    .card-profile-like-section {
+        width: 100%;
+        display: block;
     }
 }
 
