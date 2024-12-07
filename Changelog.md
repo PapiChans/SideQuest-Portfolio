@@ -44,3 +44,10 @@
 - Add Background Image
 - HTML Contents reducs the opacity for the background
 - Add Likes and Dislike section (Incomplete yet)
+
+**v0.7.0**
+- December 7, 2024
+- Finish Likes and Dislike Section
+- Add Hobbies section
+- CSS Margin Adjustments
+- Add Nickname section
