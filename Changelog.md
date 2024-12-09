@@ -51,3 +51,10 @@
 - Add Hobbies section
 - CSS Margin Adjustments
 - Add Nickname section
+
+**v0.8.0**
+- December 9, 2024
+- Adjust Card Opacity
+- Add Skills Category (Incomplete yet)
+- Add Likes and Dislike section (Incomplete yet)
+- CSS Adjustments

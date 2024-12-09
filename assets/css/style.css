@@ -164,7 +164,7 @@ Default Color Palletes
     padding: 1rem;
     overflow-y: hidden;
     transition: 0.5s ease-in-out;
-    opacity: 0.90;
+    opacity: 0.85;
 }
 
 .navbar-menu {
@@ -242,7 +242,7 @@ Default Color Palletes
 
 .card.active {
     display: block;
-    opacity: 0.90;
+    opacity: 0.85;
 }
 
 .card-content {
@@ -422,7 +422,7 @@ Default Color Palletes
 
 .card-profile-hobbies {
     width: 100%;
-    height: 200px;
+    height: 230px;
     display: block;
     margin-bottom: 40px;
 }

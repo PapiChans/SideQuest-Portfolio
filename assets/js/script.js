@@ -41,7 +41,7 @@ tabs.forEach(tab => {
     
     // Trigger the fade-in effect after a short delay
     setTimeout(() => {
-      target.style.opacity = 1; // Fade-in by changing opacity
+      target.style.opacity = 0.85; // Fade-in by changing opacity
     }, 10); // Timeout to allow the style to take effect
 
     /*On Responsive NavBar, it will automatically back to 55px once the list is clicked*/
