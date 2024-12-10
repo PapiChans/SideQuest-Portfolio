@@ -422,9 +422,8 @@ Default Color Palletes
 
 .card-profile-hobbies {
     width: 100%;
-    height: 230px;
+    max-height: 230px;
     display: block;
-    margin-bottom: 40px;
 }
 
 .card-ul-grid {
@@ -432,6 +431,46 @@ Default Color Palletes
     column-gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2px;
+}
+
+/*Card Section: Tools*/
+.card-tools-item-list {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.card-tools-item-box {
+    width: 270px;
+    height: 270px;
+    border: 2px solid var(--cp-black);
+    border-radius: 5px;
+    border-width: 5px;
+    background-color: var(--scroll-color);
+    display: block;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 5px 5px #1a1a1a;
+}
+
+.card-tools-item-box:hover {
+    transform: translateY(-5px);
+}
+
+.card-tools-item-box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 5px;
+}
+
+.card-tools-item-box-img {
+    height: 100%;
 }
 
 /*Responsive Sections*/
@@ -490,6 +529,19 @@ Default Color Palletes
     .card-ul-grid {
         display: block;
     }
+
+    /*Card Section: Tools*/
+    .card-tools-item-list {
+        display: grid;
+        column-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+    }
+
+    .card-tools-item-box {
+        width: 170px;
+        height: 170px;
+    }
 }
 
 /*Mobile Responsive*/
@@ -543,4 +595,18 @@ Default Color Palletes
         font-size: 13px;
         line-height: 22px;
     }
+
+    /*Card Section: Tools*/
+    .card-tools-item-list {
+        display: grid;
+        column-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+    }
+
+    .card-tools-item-box {
+        width: 100%;
+        height: 150px;
+    }
+
 }

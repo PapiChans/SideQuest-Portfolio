@@ -58,3 +58,10 @@
 - Add Skills Category (Incomplete yet)
 - Add Likes and Dislike section (Incomplete yet)
 - CSS Adjustments
+
+**v0.9.0**
+- December 10, 2024
+- CSS Adjustments
+- Add Items on Skills Category (Incomplete yet)
+- Add Items on Likes and Dislike section (Incomplete yet)
+- Add Tools Content (Incomplete yet)
