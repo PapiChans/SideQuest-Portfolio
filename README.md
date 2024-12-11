@@ -6,4 +6,4 @@
 | ------------------- | --------------------|
 | **Description**     | Additional Portfolio inspired in 8-BIT Style and Addional Info for more personal info.|
 | **Project Started**    | November 30, 2024 |
-| **Current Version** | v0.9.0 |
+| **Current Version** | v0.10.0 |

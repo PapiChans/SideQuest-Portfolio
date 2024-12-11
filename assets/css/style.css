@@ -436,9 +436,9 @@ Default Color Palletes
 /*Card Section: Tools*/
 .card-tools-item-list {
     display: grid;
-    column-gap: 5px;
+    column-gap: 1px;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
+    row-gap: 20px;
     align-items: center;
     justify-content: center;
     justify-items: center;
