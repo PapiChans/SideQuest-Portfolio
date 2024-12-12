@@ -138,6 +138,23 @@ Default Color Palletes
     color: var(--cp-light-gray);
 }
 
+.text-green {
+    color: var(--clr-green)
+}
+
+.text-red {
+    color: var(--clr-red)
+}
+
+.text-light-blue {
+    color: var(--clr-light-blue)
+}
+
+.text-yellow {
+    color: var(--clr-yellow)
+}
+
+
 /*Diplays*/
 .d-flex {
     display: flex;
@@ -295,7 +312,7 @@ Default Color Palletes
 
 /*Card Typography*/
 .card-header {
-    font-size: 25px;
+    font-size: 23px;
     text-shadow: 0px 5px 2px rgba(0,0,0.9);
     letter-spacing: 2px;
     margin-top: 15px;
@@ -304,7 +321,7 @@ Default Color Palletes
 }
 
 .card-paragraph {
-    font-size: 17px;
+    font-size: 16px;
     text-shadow: 0px 3px 2px rgba(0,0,0.9);
     letter-spacing: 2px;
     line-height: 25px;
@@ -443,11 +460,12 @@ Default Color Palletes
     justify-content: center;
     justify-items: center;
     padding-bottom: 20px;
+    margin-top: 15px;
 }
 
 .card-tools-item-box {
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     border: 2px solid var(--cp-black);
     border-radius: 5px;
     border-width: 5px;
@@ -471,6 +489,57 @@ Default Color Palletes
 
 .card-tools-item-box-img {
     height: 100%;
+}
+
+/*Card Section: IGN*/
+.card-ign-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    padding: 1rem;
+}
+
+.card-ign-item {
+    width: 100%;
+    border: 5px solid var(--cp-black);
+    background-color: var(--scroll-color);
+    border-width: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    padding: 0.5rem;
+    min-height: 100px;
+    box-shadow: 0px 5px 5px #1a1a1a;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-ign-item:hover {
+    transform: translateY(-3px);
+}
+
+.card-ign-item-pic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.card-ign-item-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.card-ign-item-info-section {
+    display: block;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
 }
 
 /*Responsive Sections*/
@@ -535,12 +604,26 @@ Default Color Palletes
         display: grid;
         column-gap: 5px;
         grid-template-columns: repeat(2, 1fr);
-        row-gap: 10px;
+        row-gap: 20px;
     }
 
     .card-tools-item-box {
         width: 170px;
         height: 170px;
+    }
+
+    /*Card Section: IGN*/
+    .card-ign-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* Custom Responsive 1*/
+@media screen and (max-width: 880px) {
+    /*Card Section: Tools*/
+    .card-tools-item-list {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -588,11 +671,11 @@ Default Color Palletes
 
     /*Card Typography*/
     .card-header {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .card-paragraph {
-        font-size: 13px;
+        font-size: 12px;
         line-height: 22px;
     }
 
@@ -600,8 +683,8 @@ Default Color Palletes
     .card-tools-item-list {
         display: grid;
         column-gap: 5px;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
     }
 
     .card-tools-item-box {
@@ -609,4 +692,12 @@ Default Color Palletes
         height: 150px;
     }
 
+    /*Card Section: IGN*/
+    .card-ign-item {
+        display: block;
+    }
+
+    .card-ign-item-pic-section {
+        width: 100%;
+    }
 }

@@ -72,3 +72,7 @@
 - Add Items on Likes and Dislike section (Completed)
 - Add Items on Skills Category (Completed)
 - Add Tools Content (Completed)
+
+**v0.11.0**
+- December 12, 2024
+- Add IGN Content (Completed)
