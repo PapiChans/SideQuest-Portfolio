@@ -76,3 +76,10 @@
 **v0.11.0**
 - December 12, 2024
 - Add IGN Content (Completed)
+
+**v0.12.0**
+- December 12, 2024
+- CSS Adjustments
+- Add JSON File for Game Ratings
+- Add Game Ratings Section (Completed)
+- Add JS Code for Fetching and Rendering JSON file for Game Ratings

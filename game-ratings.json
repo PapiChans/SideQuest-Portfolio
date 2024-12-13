@@ -1,0 +1,80 @@
+[
+    {
+        "game_title": "Among Us",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Among_Us_cover_art.jpg/220px-Among_Us_cover_art.jpg",
+        "platform": "Mobile",
+        "ratings": 6
+    },
+    {
+        "game_title": "Azur Lane",
+        "image_url": "https://cdn2.steamgriddb.com/icon/76f1cfd7754a6e4fc3281bcccb3d0902.png",
+        "platform": "Mobile",
+        "ratings": 10
+    },
+    {
+        "game_title": "Call of Duty Mobile",
+        "image_url": "https://img.icons8.com/?size=100&id=jiWqcQWQILLA&format=png&color=000000",
+        "platform": "Mobile",
+        "ratings": 7
+    },
+    {
+        "game_title": "Clash of Clans",
+        "image_url": "https://wallpapers.com/images/featured/clash-of-clans-logo-png-jntfmwifvnxhgrwg.jpg",
+        "platform": "Mobile",
+        "ratings": 7
+    },
+    {
+        "game_title": "Counter Strike: Global Offensive",
+        "image_url": "https://img.icons8.com/?size=100&id=01rbJT1jHOdg&format=png&color=000000",
+        "platform": "PC",
+        "ratings": 8
+    },
+    {
+        "game_title": "CrossFire",
+        "image_url": "https://img.icons8.com/?size=100&id=hVNsR8IVJlfU&format=png&color=000000",
+        "platform": "PC",
+        "ratings": 10
+    },
+    {
+        "game_title": "Minecraft",
+        "image_url": "https://img.icons8.com/?size=100&id=OIRp0ja5yxXh&format=png&color=000000",
+        "platform": "Mobile",
+        "ratings": 7
+    },
+    {
+        "game_title": "Mobile Legends: Bang Bang",
+        "image_url": "https://img.icons8.com/?size=100&id=j1coAffetNuo&format=png&color=000000",
+        "platform": "Mobile",
+        "ratings": 8
+    },
+    {
+        "game_title": "Roblox",
+        "image_url": "https://img.icons8.com/?size=100&id=97652&format=png&color=000000",
+        "platform": "Mobile",
+        "ratings": 7
+    },
+    {
+        "game_title": "Super Mario Bros.",
+        "image_url": "https://seeklogo.com/images/S/super-mario-bros-8-bit-logo-5063362780-seeklogo.com.png",
+        "platform": "NES",
+        "ratings": 9
+    },
+    {
+        "game_title": "Super Mario Bros. 2",
+        "image_url": "https://mario.wiki.gallery/images/e/ea/SMB2_Boxart.png",
+        "platform": "NES",
+        "ratings": 7
+    },
+    {
+        "game_title": "Super Mario Bros. 3",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+        "platform": "NES",
+        "ratings": 8
+    },
+    {
+        "game_title": "Valorant.",
+        "image_url": "https://img.icons8.com/?size=100&id=aUZxT3Erwill&format=png&color=000000",
+        "platform": "PC",
+        "ratings": 7
+    }
+]

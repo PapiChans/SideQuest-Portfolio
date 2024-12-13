@@ -97,3 +97,45 @@ navBarDeactivate.addEventListener("change", function() {
   iconTransition(closeIcon,openIcon);
   overlay.classList.add('d-none')
 });
+
+//##########
+//  FETCHING DATA FROM JSON FILES: Game Ratings Sections
+//##########
+
+//Assigning the variable to the Game Ratings
+const gameItem = document.querySelector('#game-rating-id')
+
+fetch('/game-ratings.json')
+  .then(res => res.json())
+  .then(data => {
+      data.forEach(post => {
+        //Logic for Text-Color in Ratings
+        let ratingColor = null;
+        if (post.ratings > 6) {
+          ratingColor = 'green';
+        }
+        else if (post.ratings > 3) {
+          ratingColor = 'yellow';
+        }
+        else {
+          ratingColor = 'red';
+        }
+
+
+        gameItem.insertAdjacentHTML('beforeend',
+          // Rendering along with template and data
+          `
+          <div class="card-game-ratings-item">
+            <div class="card-game-ratings-item-pic-section">
+                <img class="card-game-ratings-item-pic" src="${post.image_url}">
+            </div>
+            <div class="card-game-ratings-item-info-section">
+                <p class="text-light card-paragraph">${post.game_title}</p>
+                <p class="text-light card-paragraph">Platform: <span class="text-light-blue">${post.platform}</span></p>
+                <p class="text-light card-paragraph">Rate: <span class="text-${ratingColor}">${post.ratings}/10</span></p>
+            </div>
+        </div>
+          `
+        );
+      })
+    });

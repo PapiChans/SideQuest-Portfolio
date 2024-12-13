@@ -542,6 +542,57 @@ Default Color Palletes
     width: 100%;
 }
 
+/*Card Section: Game Ratings*/
+.card-game-ratings-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    padding: 1rem;
+}
+
+.card-game-ratings-item {
+    width: 100%;
+    border: 5px solid var(--cp-black);
+    background-color: var(--scroll-color);
+    border-width: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    padding: 0.5rem;
+    min-height: 100px;
+    box-shadow: 0px 5px 5px #1a1a1a;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-game-ratings-item:hover {
+    transform: translateY(-3px);
+}
+
+.card-game-ratings-item-pic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.card-game-ratings-item-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.card-game-ratings-item-info-section {
+    display: block;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+    width: 100%;
+}
+
 /*Responsive Sections*/
 /*Tablet/Ipad Responsive*/
 @media screen and (max-width: 768px) {
@@ -614,6 +665,11 @@ Default Color Palletes
 
     /*Card Section: IGN*/
     .card-ign-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*Card Section: Game Ratings*/
+    .card-game-ratings-section {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -699,5 +755,22 @@ Default Color Palletes
 
     .card-ign-item-pic-section {
         width: 100%;
+    }
+
+    .card-ign-item-info-section {
+        margin-left: 0;
+    }
+    
+    /*Card Section: Game Ratings*/
+    .card-game-ratings-item {
+        display: block;
+    }
+    
+    .card-game-ratings-item-pic-section {
+        width: 100%;
+    }
+
+    .card-game-ratings-item-info-section {
+        margin-left: 0;
     }
 }
