@@ -1,3 +1,19 @@
+//##########
+//  Pre Loader Script
+//##########
+
+const preloader = document.querySelector("#preloader")
+
+window.onload = function() {
+  // This code will set the opacity and display of a prelaoder to none
+  setTimeout(() => {
+    preloader.style.opacity = 0;
+    setTimeout(() => {
+      preloader.style.display = "none";
+    }, 500)
+  },500);
+};
+
 /* Tab Section */
 
 /* Tabs Variables*/
@@ -138,4 +154,4 @@ fetch('/game-ratings.json')
           `
         );
       })
-    });
+    });  

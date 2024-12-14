@@ -36,6 +36,24 @@
         "ratings": 10
     },
     {
+        "game_title": "GTA: San Andreas",
+        "image_url": "https://freepngimg.com/download/gta/28699-2-gta-san-andreas.png",
+        "platform": "PC",
+        "ratings": 10
+    },
+    {
+        "game_title": "Mega Man",
+        "image_url": "https://www.pngplay.com/wp-content/uploads/11/Mega-Man-Transparent-File-Clip-Art.png",
+        "platform": "NES",
+        "ratings": 8
+    },
+    {
+        "game_title": "Mega Man X Dive",
+        "image_url": "https://play-lh.googleusercontent.com/BKjrfXTEZhR_Ea4TFQLYW2S8Mbh13jBJkLZAopz5Savuq-1x3ueEVwxIvgOFLLaxStQ",
+        "platform": "Mobile",
+        "ratings": 9
+    },
+    {
         "game_title": "Minecraft",
         "image_url": "https://img.icons8.com/?size=100&id=OIRp0ja5yxXh&format=png&color=000000",
         "platform": "Mobile",
@@ -52,6 +70,12 @@
         "image_url": "https://img.icons8.com/?size=100&id=97652&format=png&color=000000",
         "platform": "Mobile",
         "ratings": 7
+    },
+    {
+        "game_title": "Soul Knight",
+        "image_url": "https://play-lh.googleusercontent.com/lHRlUn-la4l-YXVfnv0BdNW1c5tttV8f7etPC-OZaiJYDhWSXn9OjVP4y6WPCUZirlfc=w240-h480-rw",
+        "platform": "Mobile",
+        "ratings": 9
     },
     {
         "game_title": "Super Mario Bros.",

@@ -83,3 +83,12 @@
 - Add JSON File for Game Ratings
 - Add Game Ratings Section (Completed)
 - Add JS Code for Fetching and Rendering JSON file for Game Ratings
+
+**v1.0.0**
+- December 13, 2024
+- CSS Adjustments
+- CSS Add Animations for Preloader
+- Add Preloader feature
+- Add Script for Preloader
+- Add Information from Game-rating.json
+- READY TO DEPLOY
