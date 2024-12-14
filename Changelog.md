@@ -112,3 +112,7 @@
 **v1.0.5**
 - December 13, 2024
 - Trying to FIX Missing Assets: Attempt 5
+
+**v1.0.6**
+- December 13, 2024
+- Adjust the Preloader content position upwards
