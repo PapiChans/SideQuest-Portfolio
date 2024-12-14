@@ -92,3 +92,7 @@
 - Add Script for Preloader
 - Add Information from Game-rating.json
 - READY TO DEPLOY
+
+**v1.0.1**
+- December 13, 2024
+- Trying to FIX Missing Assets: Attempt 1

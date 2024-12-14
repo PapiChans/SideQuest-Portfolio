@@ -121,7 +121,7 @@ navBarDeactivate.addEventListener("change", function() {
 //Assigning the variable to the Game Ratings
 const gameItem = document.querySelector('#game-rating-id')
 
-fetch('/game-ratings.json')
+fetch('game-ratings.json')
   .then(res => res.json())
   .then(data => {
       data.forEach(post => {
