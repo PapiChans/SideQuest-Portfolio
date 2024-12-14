@@ -104,3 +104,7 @@
 **v1.0.3**
 - December 13, 2024
 - Trying to FIX Missing Assets: Attempt 3
+
+**v1.0.4**
+- December 13, 2024
+- Trying to FIX Missing Assets: Attempt 4

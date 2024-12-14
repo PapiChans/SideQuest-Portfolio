@@ -9,7 +9,7 @@
 /*Importing 8-Bit Font*/
 @font-face {
     font-family: kongtext;
-    src: url('/assets/fonts/kongtext.ttf');
+    src: url('../assets/fonts/kongtext.ttf');
 }
 
 /*
@@ -286,7 +286,7 @@ Default Color Palletes
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    background-image: url('/assets/images/background/night.jpg');
+    background-image: url('../assets/images/background/night.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
