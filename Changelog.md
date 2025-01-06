@@ -116,3 +116,7 @@
 **v1.0.6**
 - December 13, 2024
 - Adjust the Preloader content position upwards
+
+**v1.0.7**
+- January 6, 2025
+- Replace Links for Images for all non-working links makes the preloader load forever.
